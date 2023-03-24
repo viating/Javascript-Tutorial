@@ -6,3 +6,7 @@ console.log(yeni_tarih.getFullYear());
 
 //Tarihin sadece saatini yazdırma
 console.log(yeni_tarih.getHours());
+
+//Güncel tarihi yazdırma
+guncel_tarih = new Date(Date.now());
+console.log(guncel_tarih);
